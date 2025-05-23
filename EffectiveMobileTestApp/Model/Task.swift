@@ -10,8 +10,8 @@ import Foundation
 
 struct Task: Codable {
     let id: Int
-    var title: String
-    var description: String
-    let dateCreated: Date
-    var isCompleted: Bool
+    let todo: String
+    let completed: Bool
+    let userId: Int
 }
+
